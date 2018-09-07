@@ -1,0 +1,3 @@
+import app
+event = {"event": "Transfer", "address": "0xbEC7616EB21829a513e345a94404d71bf3796994", "blockNumber": 3944564, "transactionIndex": 28, "args": {"from": "0x47Da45ac9bE408De4e4C12A7f87572E7798811ae", "to": "0x7273c41573065cB6385f8Bffb4fe6Cf32F48Cd20", "tokens": 2250000}, "timestamp": 1535700464}
+print(app.updateBalance(event))
